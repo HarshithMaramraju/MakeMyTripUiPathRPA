@@ -1,0 +1,291 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test3" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1408.8,3452" sap2010:WorkflowViewState.IdRef="Test3_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="StartDate" sap:VirtualizedContainerService.HintSize="800,3387.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="strMonthYear" />
+      <Variable x:TypeArguments="x:String" Name="strDateOnly" />
+      <Variable x:TypeArguments="x:String" Name="FormatedDate" />
+      <Variable x:TypeArguments="x:String" Name="strInput" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="737.6,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[&quot;Please Enter the Date format as: &quot;&quot;dd-MMM-yy from&quot; + Now.Date.ToString(&quot;dd-MMM-yy&quot;) + &quot; to &quot; + Today.AddYears(1).ToString(&quot;dd-MMM-yy&quot;)]" Title="Enter Travel date">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[strInput]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <Assign sap:VirtualizedContainerService.HintSize="737.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strMonthYear]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[DateTime.ParseExact(strInput, "dd-MMM-yy", System.Globalization.CultureInfo.InvariantCulture).ToString("MMMM yyyy")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="737.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[strMonthYear]" />
+    <Assign sap:VirtualizedContainerService.HintSize="737.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[strDateOnly]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[DateTime.ParseExact(strInput, "d-MMM-yy", CultureInfo.InvariantCulture).ToString("d-MMM").Split("-"c)(0)]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="737.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[strDateOnly]" />
+    <Assign sap:VirtualizedContainerService.HintSize="737.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_5">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[FormatedDate]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[DateTime.Parse(strInput.ToLower).ToString("ddd MMM dd yyyy")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="737.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[FormatedDate]" />
+    <If Condition="[DateTime.Parse(FormatedDate) &gt; Today.AddYears(1)]" sap:VirtualizedContainerService.HintSize="737.6,2316.8" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="353.6,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Please select date before of: &quot;+Today.AddYears(1).ToString(&quot;dd-MMM-yyyy&quot;)]" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="704,1957.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday" sap:VirtualizedContainerService.HintSize="641.6,1868.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7bc14e9a-f291-45f7-b2dd-869ca669636b" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,1628.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="strCalender" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe MakeMyTrip'" sap:VirtualizedContainerService.HintSize="545.6,1538.4" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="adfdda3ca9a4153c325e75fc094aa857" Selector="&lt;html app='chrome.exe' title='MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp;amp; Holiday' /&gt;">
+                    <ui:BrowserScope.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1326.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Departure'" sap:VirtualizedContainerService.HintSize="449.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7bc14e9a-f291-45f7-b2dd-869ca669636b" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.makemytrip.com/?srsltid=AfmBOorbNKxRV1-1fseRPsoojMxPk-zmAG_3A5Qo5Hy87v_p1gZmYHYH" CVScreenId="b8735b9a-6774-4505-a59e-04e94254514f" CvElementArea="1091, 431, 24, 21" CvTextArea="1007, 432, 81, 20" CvTextArgument="Departure" CvType="ArrowButton" DesignTimeRectangle="1008, 430, 149, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Departure' parentid='top-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Departure' parentid='top-banner' tag='SPAN' type='' class='lbl_input appendBottom10' check:innerText='Departure' /&gt;" Guid="0920953b-1397-473c-91e0-4883c8e9a04a" InformativeScreenshot="751ec0bb455a2844bcae839b33960a83.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp;amp; Holiday' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target DesignTimeRectangle="985, 417, 196, 126" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='3' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='' aaname='' check:innerText='Departure&amp;#xA;&amp;#xA;10 Sep24&amp;#xA;&amp;#xA;Tuesday' /&gt;" Guid="54658b54-8b4d-481f-8d64-ad592efa538a" SearchSteps="Selector, FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NGetText DisplayName="Get Text 'Departure'" sap:VirtualizedContainerService.HintSize="449.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="7bc14e9a-f291-45f7-b2dd-869ca669636b" TextString="[strCalender]" Version="V4">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.makemytrip.com/?srsltid=AfmBOorbNKxRV1-1fseRPsoojMxPk-zmAG_3A5Qo5Hy87v_p1gZmYHYH" CVScreenId="0e200fe2-62d0-4840-b7be-b3b2d26fcf35" CvTextArea="747, 527, 170, 26" CvType="AnyWordGroup" DesignTimeRectangle="610, 525, 447, 27" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='September 2024' parentid='top-banner' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-banner' tag='DIV' type='' class='' /&gt;" Guid="4b5cf029-7455-4d29-9da0-19a1f5461b06" ImageBase64="" InformativeScreenshot="7582493564b1660aae4879d62d7aacc5.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp;amp; Holiday' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="0e200fe2-62d0-4840-b7be-b3b2d26fcf35" CvElementArea="1092, 431, 23, 21" CvTextArea="1007, 432, 81, 20" CvTextArgument="Departure" CvType="ArrowButton" DesignTimeRectangle="1008, 430, 149, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Departure' parentid='top-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Departure' parentid='top-banner' tag='SPAN' type='' class='lbl_input appendBottom10' check:innerText='Departure' /&gt;" Guid="9e579447-fc55-4f3e-b6d5-edced9a3012e" SearchSteps="Selector, FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                          <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[strMonthYear.Trim&lt;&gt;strCalender.Trim]" DisplayName="While" sap:VirtualizedContainerService.HintSize="449.6,605.6" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
+                            <ui:InterruptibleWhile.Body>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,459.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Travellers &amp; Class'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7bc14e9a-f291-45f7-b2dd-869ca669636b" Version="V4">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://www.makemytrip.com/?srsltid=AfmBOorbNKxRV1-1fseRPsoojMxPk-zmAG_3A5Qo5Hy87v_p1gZmYHYH" CVScreenId="e0a9ed1c-9479-4f7a-937e-6111b17994fa" CvElementArea="1533, 526, 28, 25" CvType="Icon" DesignTimeRectangle="1538, 531, 20, 16" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aria-label='Next Month' aria-role='button' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Next Month' aria-role='button' tag='SPAN' type='' class='DayPicker-NavButton DayPicker-NavButton--next' aaname='' /&gt;" Guid="b0bddfa8-ada5-4ceb-915d-7270b7145739" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADZSURBVEhL5ZRLC4FBFED9DgsJWbATv0Dy2+QRCjuytrX7ZGsnCxYKCwuvYqMU4RifIX15DmPj1CzmTs2Z7r1zbWjmTwX7PSxWcvMEJUG5Cb4MNEcy8AAlQWMI3jR4UmD0ZPAOyjUw+uAWAl8WOjORNhm3oizYiRtrQuJKgl9IWmN5YEFZcKbSBkccgvnbNbkINltYK65q9yQJ5GCylBdKTEF9ANEyREpqK1wEZwLsMQgVYH7Vwr8RHPlWiqa3UvQJLxf5XbS3qdaPpn1UmMNOvFzbsNM+rl8HDv6lJw4cblFeAAAAAElFTkSuQmCC" InformativeScreenshot="635403ddb85496689deafbc67b8f945a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp;amp; Holiday' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="e0a9ed1c-9479-4f7a-937e-6111b17994fa" CvElementArea="1541, 432, 23, 20" CvTextArea="1401, 432, 137, 16" CvTextArgument="Travellers &amp; Class" CvType="ArrowButton" DesignTimeRectangle="1403, 430, 244, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Travellers &amp;amp; Class' parentid='top-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Travellers &amp;amp; Class' parentid='top-banner' tag='SPAN' type='' class='lbl_input appendBottom5' check:innerText='Travellers &amp;amp; Class' /&gt;" Guid="99814052-1988-46d0-8aee-060f0ab397a2" SearchSteps="Selector, FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                                <uix:NGetText DisplayName="Get Text 'Departure'" sap:VirtualizedContainerService.HintSize="353.6,180.8" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="7bc14e9a-f291-45f7-b2dd-869ca669636b" TextString="[strCalender]" Version="V4">
+                                  <uix:NGetText.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://www.makemytrip.com/?srsltid=AfmBOorbNKxRV1-1fseRPsoojMxPk-zmAG_3A5Qo5Hy87v_p1gZmYHYH" CVScreenId="0e200fe2-62d0-4840-b7be-b3b2d26fcf35" CvTextArea="747, 527, 170, 26" CvType="AnyWordGroup" DesignTimeRectangle="610, 525, 447, 27" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='September 2024' parentid='top-banner' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-banner' tag='DIV' type='' class='' /&gt;" Guid="4b5cf029-7455-4d29-9da0-19a1f5461b06" ImageBase64="" InformativeScreenshot="7582493564b1660aae4879d62d7aacc5.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp;amp; Holiday' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="0e200fe2-62d0-4840-b7be-b3b2d26fcf35" CvElementArea="1092, 431, 23, 21" CvTextArea="1007, 432, 81, 20" CvTextArgument="Departure" CvType="ArrowButton" DesignTimeRectangle="1008, 430, 149, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Departure' parentid='top-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Departure' parentid='top-banner' tag='SPAN' type='' class='lbl_input appendBottom10' check:innerText='Departure' /&gt;" Guid="9e579447-fc55-4f3e-b6d5-edced9a3012e" SearchSteps="Selector, FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NGetText.Target>
+                                </uix:NGetText>
+                              </Sequence>
+                            </ui:InterruptibleWhile.Body>
+                          </ui:InterruptibleWhile>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="[strCalender]" />
+                          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="449.6,130.4" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:Click.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:Click.CursorPosition>
+                            <ui:Click.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4a4d26a2-db7e-4f80-af0e-0cd45a757249" InformativeScreenshot="7fc8e90861d539bffb59676039295c36" Selector="[string.Format(&quot;&lt;webctrl aria-role='gridcell' parentid='top-banner' tag='DIV' aria-label='{0}' /&gt;&lt;webctrl class='dateInnerCell' parentid='top-banner' tag='DIV' /&gt;&quot;, FormatedDate)]">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:Click.Target>
+                          </ui:Click>
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:BrowserScope.Body>
+                  </ui:BrowserScope>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGnSURBVDhPnZPLLwNRFMb7lxCvBSvCAinx2DQhsRC1QSQIO00EYSNWxKILEZUQUcQjRIgIEZEuvBYULa1oO6hXS0urrXp0+pl7Fpi2i+EkX+bLuef87rk3c2Us9NlxSkFngiBRrFb5uzlWkRQpGcAckfyLTAwQa0GyvgHmagUszVXkjaVZMJZkigqPilJha2sgf5iXTDXME+CkLBv8awA+/S6Oi9PwdnOFa3UXuM4mOMYHqZB9ffs75B/mtHBOD/8ArM3VeNatwb0yh6f1JbCwqmrAB1/hXl2AQZFBG7AJTpUFgveLJ2C61fQhyJ1T85udQ8BsQDj0iauedriWZ8EH/MLoSfBsbcAxoaEeEcC7p0OYD+FxXovwxzsBfAe7uBtW0+5+wz6sLbXkDYp0MeAwNwEhvw8O7QDuR/upyFRZiOCFBaEXD01BwfNwTg59N/8A5InCxYzhKD+FLs7WVk+LDGZrrYM+Jx6X3Sqa8LRcHg2QIq6jEYEzY1ReMsC1OAXnzEhUngFMkclY8m5vRp1fEP3KFRHJmOLaG2Dv7YjMi17kP56zTPYFWftrx2wcDmoAAAAASUVORK5CYII=" InformativeScreenshot="afbeb71c9081d5deaf4ad23748ce0619.jpg" Selector="&lt;html app='chrome.exe' title='MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp;amp; Holiday' /&gt;" Title="MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday" Url="https://www.makemytrip.com/?srsltid=AfmBOorbNKxRV1-1fseRPsoojMxPk-zmAG_3A5Qo5Hy87v_p1gZmYHYH" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
